@@ -3,3 +3,41 @@ body {
   height: 100%;
   margin: 0;
 }
+h1{
+  text-align: center;
+}
+img{
+  display: block;
+  margin: auto;
+}
+.special{
+  text-align: center;
+  padding: 10px;
+  background-color:  grey;
+}
+
+.caption{
+  font-size: small;
+  text-align: center;
+}
+#featured_property p{
+  width: 800px;
+  margin: auto;
+  padding: 10px;
+  text-align: center;
+}
+#details{
+  overflow: hidden;
+}
+#details div{
+  float: left;
+  margin: 5px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+#details{
+  display: flex;
+  background-color: crimson;
+  text-align: center;
+  flex: 0 1 25%;
+}
